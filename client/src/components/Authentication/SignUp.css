@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700&family=Quicksand&family=Raleway:wght@200&display=swap');
+
+.signup-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-container {
+    width: 420px;
+    padding: 30px 40px 40px 40px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(77, 77, 77);
+    backdrop-filter: blur(20px);
+}
+
+.signup-container h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+/* ------------INPUT FIELDS---------- */
+.signup-form{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0px;
+    font-size: 16px;
+}
+
+.signup-form label{
+    margin-left: 20px;
+}
+
+.signup-form input{
+    padding: 20px 50px 20px 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    border: 3px solid rgba(177, 177, 177, 0.2);
+    border-radius: 50px;
+    color: white;
+}
+
+.signup-form input::placeholder {
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.signup-form i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+/*------------INPUT FIELDS---------- */
+
+.signup-terms {
+    margin: 30px 0px 20px 0px;
+}
+.signup-terms input {
+    margin: 0 10px 0 5px;
+}
+.signup-terms a{
+    color: white;
+    text-decoration: none;
+}
+.signup-terms a:hover{
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.signup-btn {
+    width: 100%;
+    height: 45px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: #00BF62;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.neon-border {
+    border: 3px solid #fbfbfb;
+    box-shadow: 0 0 15px #08c5ff;
+    border-radius: 30px;
+}
